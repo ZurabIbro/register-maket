@@ -1,0 +1,157 @@
+.txt{
+ margin-left: 30px;
+ margin-bottom: 28px;
+}
+body{
+ max-width: 100%; 
+ background-color:  aliceblue;
+}
+.LeftBox{
+  max-width: 100%;
+  width: 364px;
+  height: 100%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 6px 6px 10px #b8cadb;
+}
+.LeftBoxFirstPic{
+  padding: 50px 8px 0px 45px;
+  float: left;
+  max-width: 100%;
+}
+.LeftBoxSecondPic{
+  padding-top: 230px;
+  max-width: 100%;
+}
+.LeftBox p{
+  padding-top: 30px;
+  font-weight: 800;
+  font-size: 26px;
+}
+.RegisterBox{
+  padding-top: 150px;
+  padding-left: 24%;
+  max-width: 100%;
+  
+}
+.RightBox{
+  margin-left: 150px;
+  padding-top: 33px;
+  height: 50%;
+}
+main{
+  margin: 16px;
+  background-color: aliceblue;
+  height: 900px;
+  display: flex;
+  max-width: 100%;
+}
+.firstP{
+  font-weight: 700;
+  font-size: 24px;
+  
+}
+.form label{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.RegisterBox img{
+  padding: 20px 20px;
+}
+.form input{
+  width: 335px;
+  height: 56px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: #919EAB;
+  margin-bottom: 24px;
+}
+.form{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.form ::placeholder{
+  padding-left: 15px;
+  color: #919EAB;
+}
+.form button{
+  width: 335px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #3258FB;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 5px #b6c2f8;
+}
+.form p{
+  text-align: center;
+  color: #919EAB;
+  font-size: 16px;
+}
+.form a{
+  color: #3258FB;
+}
+.form p.AlreadyHaveAccount-txt{
+  color: black;
+}
+.form a.AlreadyHaveAccount-Enter{
+  font-weight: 700;
+}
+.RightBox p.AlreadyHaveAccount-txt2{
+  color: black;
+}
+.RightBox a.AlreadyHaveAccount-Enter2{
+  font-weight: 700;
+  color: blue;
+}
+
+
+@media screen and (min-width:700px){
+  .form{
+    max-width: 500px;
+  }
+  .RegisterBox img{
+    display: none;
+  }
+}
+
+@media screen and (max-width:700px){
+  .LeftBox{
+    display: none;
+  }
+  main{
+    align-items:flex-start;
+    height: auto;
+  }
+  .RegisterBox{
+    padding: 0px;
+  }
+}
+@media screen and (min-width:1150px){
+.AlreadyHaveAccount-txt{
+  display: none;
+}
+.form{
+  flex-wrap: none;
+}
+}
+@media screen and (max-width:1150px){
+
+.AlreadyHaveAccount-txt2{
+  display: none;
+}
+}
+@media screen and (max-width:900px){
+  
+  .RegisterBox{
+    padding-left: 0%;
+  } 
+}
